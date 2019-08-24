@@ -1,2 +1,3 @@
 # Build
-```mvn clean install:exec```  
+```mvn clean install```  
+```mvn exec:java```
