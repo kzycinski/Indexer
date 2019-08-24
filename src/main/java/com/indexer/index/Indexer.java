@@ -1,4 +1,4 @@
-package index;
+package com.indexer.index;
 
 import java.util.*;
 

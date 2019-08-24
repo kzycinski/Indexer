@@ -1,4 +1,6 @@
-import index.Indexer;
+package com.indexer;
+
+import com.indexer.index.Indexer;
 
 import java.util.Collection;
 import java.util.Map;
@@ -13,7 +15,7 @@ public class Main {
 
     private static String getUserInput() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter text for indexer: ");
+        System.out.println("\n\nEnter text for indexer: ");
         return scanner.nextLine();
     }
 
